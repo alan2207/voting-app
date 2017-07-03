@@ -1,0 +1,35 @@
+
+
+.poll {
+   position: relative;
+   top: 40px;
+   margin: 10px auto;
+   width: 60%;
+   border-radius: 10px;
+   padding: 20px;
+   border: 1px solid black;
+   box-sizing: border-box;
+  
+}
+
+@media only screen and (max-width : 768px){
+  .poll {
+    width: 100%;
+  }
+}
+
+
+#voteForm {
+  margin-bottom: 10px;
+}
+
+#main-wrapper {
+  display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+  margin-bottom: 100px;
+}
