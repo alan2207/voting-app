@@ -9,7 +9,9 @@ const {db, port} = require('./config');
 
 var app = express();
 
-mongoose.connect(db);
+mongoose.connect(db, {
+    useMongoClient: true
+});
 
 
 // setting the app
